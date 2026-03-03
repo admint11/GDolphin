@@ -24,9 +24,27 @@ solana-transaction-status = "1.17"
 bs58 = "0.5"
 borsh = "0.10"
 
+# Jupiter DEX integration for swaps
+jupiter-swap-api = "0.1"
+
+# Jito Labs for MEV protection and bundle submission
+jito-searcher-client = "0.1"
+
+# HTTP client for Helius RPC
+reqwest = { version = "0.11", features = ["json"] }
+http = "0.2"
+
 # WebSocket for real-time data
 futures = "0.3"
 async-trait = "0.1"
+
+# Validation and signing
+ed25519-dalek = "2.0"
+sha2 = "0.10"
+
+# Utilities
+hex = "0.4"
+base64 = "0.21"
 
 [build-dependencies]
 tauri-build = "1.5"
