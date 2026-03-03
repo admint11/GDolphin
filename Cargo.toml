@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "forge_mobile",
+]  
+
+[dev-dependencies]
